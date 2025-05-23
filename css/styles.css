@@ -1,0 +1,73 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      scroll-behavior: smooth;
+    }
+    h1, h2, h5 {
+      color: #d63384;
+    }
+    .hero-section {
+      background: linear-gradient(145deg, #f3f4f6, #ffffff);
+      padding: 100px 0;
+    }
+    .btn-cta {
+      background-color: #d63384;
+      color: white;
+      border-radius: 25px;
+      padding: 10px 25px;
+      font-weight: bold;
+    }
+    .btn-cta:hover {
+      background-color: #b52a6c;
+      color: #fff;
+    }
+    .divider {
+      height: 4px;
+      background: #d63384;
+      width: 80px;
+      margin: 20px auto;
+      border-radius: 2px;
+    }
+    .carousel-inner img {
+      transition: transform 0.5s ease-in-out;
+    }
+    .carousel-inner img:hover {
+      transform: scale(1.05);
+    }
+    section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .whatsapp-float a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 28px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+    .whatsapp-float a:hover {
+      transform: scale(1.1);
+      text-decoration: none;
+      color: #fff;
+    }
+#mensaje-exito,
+#mensaje-error {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#mensaje-exito.visible,
+#mensaje-error.visible {
+  opacity: 1;
+}
