@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /public/
+Allow: /
+
+Sitemap: https://heladeriachupetoso.com/sitemap.xml
